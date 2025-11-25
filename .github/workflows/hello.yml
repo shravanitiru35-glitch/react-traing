@@ -1,4 +1,4 @@
-name: Hello CI/CD
+name: hello CI/CD
 
 on:
   push:
@@ -16,5 +16,5 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Say Hello
-        run: echo "Hello CI/CD World from GitHub Actions!"
+      - name: Say hello
+        run: echo "hello CI/CD World from GitHub Actions!"
